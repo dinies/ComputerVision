@@ -1,0 +1,31 @@
+2.7 Recovery
+
+
+-Line at Infinity
+
+Line and points behave differently, namely a point transform controvaraiantly and the line covariantly.
+
+So whatever line at infinity won't change the fact that it lies on the infinity plain after that an affine transformation is appplied to it.
+
+-Recovery from images
+
+A vanishing point is a finite representation of a point at infinite. For example the projection of the infinite point on the image.
+
+-Affine Rectification
+
+	Ex	Computing a vanishing point from a length ratio.
+
+	vp= H*[1;0] multiplication for a line at infinity
+	Using the ratio among the world tiles and the tiles on the image to recover the affine transformation parameters.
+
+To sum up:
+	from aprojectively distorted image we find an homograpy that maps the image with an affine distortion.
+	In projective representation a point at infinity is called a vanishing point and is projected on the image plane so it is no more at infinity.
+
+-The circular points
+	Every circle intersect the line at infinity at the circular points 	TAKE IT FOR GUARANTEED
+	 visualized only in a Rhiemanian sphere space.
+
+	 if we assume that any ellipse or circle intersect the line at infinity in two points, then we can compute the two pints with a single equation x1^2 + y1^2 =0 and find the two solutions ( 1, -i , 0 ) , ( 1 , i , 0).
+
+-Conic dual to the circular points 

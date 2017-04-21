@@ -1,0 +1,11 @@
+[lambda,U]= eigs(Rz);
+%in U there are informations about circular points in real and complex parts
+angle(U); --> it returns the original angle of the transformation
+
+3D homogeneous coords
+	
+	The span of S
+
+	Point <- -> plane duality in P3
+		Instead of the P2 duality between points and lines
+	Lines in P3 ---> skip plucker matrix and related concepts

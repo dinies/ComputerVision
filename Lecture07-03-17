@@ -1,0 +1,38 @@
+Affine Transformation 07/03/17	
+
+A --> SVD(A)= UDV'   U and V are othogonal vectors
+V'V=1
+
+UV'VDV'
+
+UV' --> rotation matrix ; VDV' --> deformation matrix
+
+MATLAB example
+
+define the eigenvalues l1, l2
+x21 etc lines at infinity
+
+end MATLAB
+
+
+Projective Transformation
+
+MATLAB  example
+
+Cross Ratio
+
+MATLAB example
+
+Action affinities and projectivites on point at infinity
+affine
+a11 a12 t1 | x1  =  a11 x1 + a12 x2 + 0
+a21 a22 t2 | x2  =  a21 x1 + a22 x2 + 0
+0    0  v  | 0   =  0 + 0 + 0
+
+projective 
+a11 a12 t1 | x1  =  same as affine
+a21 a22 t2 | x2  =  same as affine
+V1  V2  v  | 0   =  V1 x1 + V2 x2 + 0
+
+final slide  'the line at infinity' pag 49
+
